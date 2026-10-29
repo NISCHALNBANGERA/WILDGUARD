@@ -1,0 +1,11 @@
+kagglehub
+datasets
+librosa
+soundfile
+pandas
+requests
+tqdm
+scikit-learn
+torch
+torchaudio
+streamlit

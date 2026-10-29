@@ -1,0 +1,91 @@
+﻿# Audio datasets and extracted recordings
+data/raw/
+data/filtered/
+data/organized/
+
+# Ignore processed outputs except the Jules sample
+data/processed/*
+!data/processed/
+!data/processed/jules_manifest_sample.csv
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Model checkpoints and generated training outputs
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.h5
+*.keras
+checkpoints/
+runs/
+models/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.kaggle/
+*token*
+*credentials*
+secrets/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local datasets and generated audio
+data/
+!data/processed/
+data/processed/*
+!data/processed/jules_manifest_sample.csv
+
+# Training outputs, logs, predictions, and experiment artifacts
+outputs/
+logs/
+*.log
+*.csv
+*.jsonl
+
+# Model and deployment binaries
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.h5
+*.keras
+*.bin
+*.elf
+*.o
+*.a
+
+# Local credentials and private keys
+.env
+.env.*
+!.env.example
+.kaggle/
+secrets/
+*credentials*
+*token*
+*.pem
+*.key
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
